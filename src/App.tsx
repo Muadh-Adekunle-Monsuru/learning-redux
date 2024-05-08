@@ -1,10 +1,9 @@
-import Notes from './Notes';
-import NewNotes from './NewNotesComponent';
+import Counter from './Counter';
+import Todo from './Todo';
 function App() {
 	return (
 		<>
-			{/* <Notes /> */}
-			<NewNotes />
+			<Todo />
 		</>
 	);
 }
